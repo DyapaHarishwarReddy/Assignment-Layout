@@ -1,7 +1,38 @@
 /* Our CSS file. */
 
-
-.container, .content {
-width: 100%;
-height: 100%;
-}
+.container {
+    display: flex;
+    align-items:0;
+    justify-content: center;
+  }
+  
+  .img {
+    max-width:100%;
+    height:80%;
+    transform:scale(1.5);
+  
+  }
+  
+  .image {
+    flex-basis: 40%;
+    background-color:#50C878;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+  }
+  
+  .text {
+    font-size: 20px;
+    padding-left:120px;
+    padding-top:50px;
+    background-color:white;
+  }
+  .box{
+    border-radius:25px;
+    background:#50C878;
+    width:120px;
+    text-align:center;
+    height:35px;
+    color:white;
+    padding-top:5px;
+  }
+  
